@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD</title>
+
+</head>
+<body>
+        <!-- --------------Add User User------------------ -->
+
+        <form method="post" action="http://127.0.0.1:6500/adduser">
+            <h3>Add New User</h3>
+            <input type="number" name="num1" id="" placeholder="Enter Your Mobile No">
+            <input type="email" name="user" id="" placeholder="Enter Your Email">
+            <input type="password" name="psw" id="" placeholder="Password">
+            <input type="submit" name="" id="" value="Add User">
+        </form>
+
+        <!-- --------------Get Single User------------------ -->
+        <form method="post" action="http://127.0.0.1:6500/getuser">
+            <h3>Get User</h3>
+            <input type="number" name="num2" id="" placeholder="Enter Your Mobile No">
+            <input type="submit" name="" id="" value="Get User">
+        </form>
+
+        <!-- -------------------Get All User---------------- -->
+        <form method="get" action="http://127.0.0.1:6500/getAlluser">
+            <h3>Get All User</h3>
+            <input type="submit" name="" id="" value="Get All User">
+        </form>
+
+        <!--------------------Update User -------------------- -->
+
+        <form method="post" action="http://127.0.0.1:6500/newupdateuser">
+            <h3>Update User</h3>
+            <input type="number" name="num3" id="" placeholder="Enter Your Mobile No">
+            <input type="text" name="olduser" id="" placeholder="Enter ID">
+            <input type="password" name="oldpsw" id="" placeholder="Enter New Password">
+            <input type="submit" name="" id="" value="Update User">
+        </form>
+        <!--------------------Delete User -------------------- -->
+
+        <form method="post" action="http://127.0.0.1:6500/deleteuser">
+            <h3>Get User</h3>
+            <input type="number" name="num2" id="" placeholder="Enter Your Mobile No">
+            <input type="submit" name="" id="" value="Delete User">
+        </form>
+</body>
+</html>
